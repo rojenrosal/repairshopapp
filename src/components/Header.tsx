@@ -1,7 +1,7 @@
 
 import { HomeIcon, File, UsersRound, LogOut } from 'lucide-react';
 import Link from 'next/link';
-// import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs/components';
+import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs/components';
 
 import { Button } from '@/components/ui/button';
 import { NavButton } from '@/components/NavButton';
@@ -47,9 +47,9 @@ export function Header() {
                         className="rounded-full"
                         asChild
                     >
-                        {/* <LogoutLink>
+                        <LogoutLink>
                             <LogOut />
-                        </LogoutLink> */}
+                        </LogoutLink>
                     </Button>
 
                 </div>
